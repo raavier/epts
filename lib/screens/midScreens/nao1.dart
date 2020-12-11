@@ -37,7 +37,7 @@ class Nao1 extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>
@@ -61,7 +61,7 @@ class Nao1 extends StatelessWidget {
                 QuestionContainer(
                     content:
                         'É uma atividade/tarefa de projetos (capital/ correntes) com interface com as áreas de operação, manutenção, infraestrutura e administrativa ou em áreas?',
-                    height: 220,
+                    height: 240,
                     fontSize: 25)
               ],
             ),

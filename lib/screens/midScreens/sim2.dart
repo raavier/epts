@@ -34,7 +34,7 @@ class Sim2 extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>

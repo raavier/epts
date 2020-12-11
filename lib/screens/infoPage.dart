@@ -14,7 +14,8 @@ class InfoPage extends StatelessWidget {
         appBar: AppBar(
           leading: IconButton(
             icon: Icon(
-              Icons.arrow_back_ios_rounded,
+              //Icons.arrow_back_ios_rounded,
+              Icons.home,
               color: Colors.white,
             ),
             onPressed: () => Navigator.of(context).pushReplacement(Home.route),
@@ -28,7 +29,7 @@ class InfoPage extends StatelessWidget {
                 title: "Desenvolvido por: ",
                 height: 125,
                 content:
-                    "Segurança do Trabalho - Corredor Sul, Sudeste e Centro-Oeste",
+                    "Gestão Informação e Inovação Sul e Segurança do Trabalho Itabira",
                 fontSize: 20,
               ),
               SizedBox(
@@ -36,7 +37,8 @@ class InfoPage extends StatelessWidget {
               ),
               InfoItem(
                 title: 'Objetivo: ',
-                content: 'Indicar quando a PTS se faz necessário ou não.',
+                content:
+                    'Indicar quando a PTS se faz necessário ou não na atividade.',
                 height: 130,
                 fontSize: 20,
               ),

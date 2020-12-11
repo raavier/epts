@@ -37,7 +37,7 @@ class Sim1 extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>
@@ -63,38 +63,38 @@ class Sim1 extends StatelessWidget {
                     height: 100,
                     fontSize: 25),
                 QuestionContainerItem(
-                    content: 'Trabalho em Altura', height: 50, maxLine: 1),
+                    content: 'Trabalho em Altura', height: 60, maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Trabalho a Quente', height: 50, maxLine: 1),
+                    content: 'Trabalho a Quente', height: 60, maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Inflamáveis', height: 50, maxLine: 1),
+                    content: 'Inflamáveis', height: 60, maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Explosivos', height: 50, maxLine: 1),
+                    content: 'Explosivos', height: 60, maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Içamento de Carga', height: 50, maxLine: 1),
+                    content: 'Içamento de Carga', height: 50, maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Escavação', height: 50, maxLine: 1),
+                    content: 'Escavação', height: 60, maxLine: 2),
                 QuestionContainerItem(
                     content: 'Bloqueio, identificação e zero energia',
-                    height: 75,
-                    maxLine: 2),
+                    height: 95,
+                    maxLine: 3),
                 QuestionContainerItem(
                     content:
                         'Remoção de guarda ou Proteção de máquinas e equipamentos ou acesso',
-                    height: 100,
-                    maxLine: 3),
+                    height: 120,
+                    maxLine: 4),
                 QuestionContainerItem(
                     content: 'Abertura de linhas e equipamentos',
-                    height: 50,
-                    maxLine: 1),
+                    height: 95,
+                    maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Espaço confinado', height: 50, maxLine: 1),
+                    content: 'Espaço confinado', height: 60, maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Trabalhos elétricos', height: 50, maxLine: 1),
+                    content: 'Trabalhos elétricos', height: 60, maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Radiotividade', height: 50, maxLine: 1),
+                    content: 'Radiotividade', height: 60, maxLine: 2),
                 QuestionContainerItem(
-                    content: 'Hidrojato', height: 50, maxLine: 1),
+                    content: 'Hidrojato', height: 60, maxLine: 2),
               ],
             ),
           ),

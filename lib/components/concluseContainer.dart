@@ -35,6 +35,7 @@ class ConcluseContainer extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.symmetric(vertical: 0),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(

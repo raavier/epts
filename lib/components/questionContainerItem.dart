@@ -33,10 +33,11 @@ class QuestionContainerItem extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.symmetric(vertical: 0),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
-                  padding: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(3),
                   child: Center(
                     child: Text(content,
                         maxLines: maxLine,

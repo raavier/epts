@@ -34,6 +34,7 @@ class InfoItem extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.symmetric(vertical: 10.0),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(

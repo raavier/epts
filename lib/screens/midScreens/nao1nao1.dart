@@ -35,7 +35,7 @@ class Nao1Nao1 extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>
@@ -59,7 +59,7 @@ class Nao1Nao1 extends StatelessWidget {
                 QuestionContainer(
                     content:
                         'É uma intervenção de manutenção em áreas de manutenção?',
-                    height: 120,
+                    height: 130,
                     fontSize: 25)
               ],
             ),

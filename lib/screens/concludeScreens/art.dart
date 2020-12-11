@@ -32,7 +32,7 @@ class Art extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>
@@ -56,9 +56,9 @@ class Art extends StatelessWidget {
                 ConcluseContainer(
                     borderColor: Palette.yellow,
                     content:
-                        'Usar ART e Procedimento ou Instrução específica para a tarefa com aprovação formal do gerente de manutenção ou operação e SSRO.',
-                    height: 300,
-                    fontSize: 30),
+                        'Usar ART e Procedimento ou Instrução específica para a tarefa com aprovação formal do gerente de manutenção ou operação e SSRO ou pessoa designada por ele.',
+                    height: 370,
+                    fontSize: 28),
               ],
             ),
           ),

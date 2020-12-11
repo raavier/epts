@@ -32,7 +32,7 @@ class NaoAnalise extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>
@@ -58,7 +58,7 @@ class NaoAnalise extends StatelessWidget {
                     content:
                         'Não é necessário emitir PTS\n\nUtilize análise de risco da tarefa.',
                     height: 230,
-                    fontSize: 30),
+                    fontSize: 28),
               ],
             ),
           ),

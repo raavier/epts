@@ -32,7 +32,7 @@ class Analise extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>
@@ -56,8 +56,8 @@ class Analise extends StatelessWidget {
                 ConcluseContainer(
                     borderColor: Palette.darkRed,
                     content: 'Usar Análise de Risco e Permissão de Trabalho',
-                    height: 110,
-                    fontSize: 30),
+                    height: 120,
+                    fontSize: 28),
               ],
             ),
           ),

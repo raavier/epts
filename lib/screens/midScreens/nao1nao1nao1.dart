@@ -36,7 +36,7 @@ class Nao1Nao1Nao1 extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>
@@ -59,8 +59,8 @@ class Nao1Nao1Nao1 extends StatelessWidget {
               children: [
                 QuestionContainer(
                     content:
-                        'É um requisito legal que envolva trabalho em altura, espaço confinado, equipamento energizado ou líquidos inflamáveis?\n\nou\n\nÉ um requisto legal (norma, legislação, NBR)?',
-                    height: 330,
+                        'É um requisito legal (norma, legislação ou NBR) que envolva trabalho em altura, espaço confinado, equipamento energizado ou líquidos inflamáveis?',
+                    height: 240,
                     fontSize: 25)
               ],
             ),

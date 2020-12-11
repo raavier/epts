@@ -36,7 +36,7 @@ class Sim1Nao1 extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(
-                      Icons.arrow_back_ios_rounded,
+                      Icons.home,
                       color: Colors.white,
                     ),
                     onPressed: () =>
@@ -59,8 +59,8 @@ class Sim1Nao1 extends StatelessWidget {
               children: [
                 QuestionContainer(
                     content:
-                        'O risco da atividade foi classificado como médio, alto ou muito alto?',
-                    height: 250,
+                        'O risco da atividade foi classificado como médio, alto ou muito alto, conforme matriz de risco?',
+                    height: 200,
                     fontSize: 25)
               ],
             ),
